@@ -176,8 +176,10 @@ public class BinarySearchTree<T extends Comparable<T>> {
 		Stack<BSTNode<T>> postHelper = new Stack<>();
 		if(root!=null) {
 			postHelper.push(root);
+			BSTNode current = root;
 			while(!postHelper.isEmpty()) {
-				//how should post and postHelper be updated?
+				
+				}
 			}
 			
 			while(!post.isEmpty()) {
